@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
+django = {file = "https://github.com/django/django/archive/stable/2.2.x.tar.gz"}
 
 [dev-packages]
 
